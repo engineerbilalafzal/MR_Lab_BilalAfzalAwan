@@ -1,7 +1,7 @@
 Week 1 
 Brief Description
 
-In Week 1 lab, we learned the basics of working with Linux and ROS 2 Humble. We set up a ROS 2 development workspace (~/ros2_ws_alishba), created our first Python ROS 2 package (my_first_pkg), and implemented a simple node (simple_node) that prints a message when executed. The lab introduced key ROS 2 concepts such as nodes, topics, packages, workspaces, and entry points for Python nodes. By the end, we successfully built and ran our node using ros2 run and verified our environment.
+
 Commands Used
 Verify ROS 2 installation
 

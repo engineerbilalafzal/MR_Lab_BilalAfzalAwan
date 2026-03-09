@@ -1,0 +1,45 @@
+[0.630s] Invoking command in '/home/bilal41/ros2_ws/src/my_first_pkg': PYTHONPATH=/home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_first_pkg build --build-base /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build install --record /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/install.log --single-version-externally-managed install_data
+[0.936s] running egg_info
+[0.937s] creating build/my_first_pkg/my_first_pkg.egg-info
+[0.937s] writing build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO
+[0.937s] writing dependency_links to build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt
+[0.937s] writing entry points to build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt
+[0.938s] writing requirements to build/my_first_pkg/my_first_pkg.egg-info/requires.txt
+[0.938s] writing top-level names to build/my_first_pkg/my_first_pkg.egg-info/top_level.txt
+[0.938s] writing manifest file 'build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[0.940s] reading manifest file 'build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[0.941s] writing manifest file 'build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[0.941s] running build
+[0.942s] running build_py
+[0.942s] creating /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build
+[0.942s] creating /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build/lib
+[0.942s] creating /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build/lib/my_first_pkg
+[0.942s] copying my_first_pkg/simple_node.py -> /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build/lib/my_first_pkg
+[0.942s] copying my_first_pkg/__init__.py -> /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build/lib/my_first_pkg
+[0.942s] copying my_first_pkg/counter_node.py -> /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build/lib/my_first_pkg
+[0.942s] copying my_first_pkg/parameter_node.py -> /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build/lib/my_first_pkg
+[0.942s] running install
+[0.943s] running install_lib
+[0.944s] creating /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg
+[0.944s] copying /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build/lib/my_first_pkg/simple_node.py -> /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg
+[0.944s] copying /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build/lib/my_first_pkg/__init__.py -> /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg
+[0.945s] copying /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build/lib/my_first_pkg/counter_node.py -> /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg
+[0.945s] copying /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build/lib/my_first_pkg/parameter_node.py -> /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg
+[0.945s] byte-compiling /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg/simple_node.py to simple_node.cpython-310.pyc
+[0.946s] byte-compiling /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg/__init__.py to __init__.cpython-310.pyc
+[0.946s] byte-compiling /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg/counter_node.py to counter_node.cpython-310.pyc
+[0.946s] byte-compiling /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg/parameter_node.py to parameter_node.cpython-310.pyc
+[0.947s] running install_data
+[0.947s] creating /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/share/ament_index
+[0.947s] creating /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/share/ament_index/resource_index
+[0.948s] creating /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/share/ament_index/resource_index/packages
+[0.948s] copying resource/my_first_pkg -> /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/share/ament_index/resource_index/packages
+[0.948s] copying package.xml -> /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/share/my_first_pkg
+[0.948s] running install_egg_info
+[0.950s] Copying build/my_first_pkg/my_first_pkg.egg-info to /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages/my_first_pkg-0.0.0-py3.10.egg-info
+[0.952s] running install_scripts
+[0.973s] Installing counter_node script to /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/my_first_pkg
+[0.973s] Installing parameter_node script to /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/my_first_pkg
+[0.974s] Installing simple_node script to /home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/my_first_pkg
+[0.974s] writing list of installed files to '/home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/install.log'
+[0.995s] Invoked command in '/home/bilal41/ros2_ws/src/my_first_pkg' returned '0': PYTHONPATH=/home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bilal41/ros2_ws/src/my_first_pkg/install/my_first_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_first_pkg build --build-base /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/build install --record /home/bilal41/ros2_ws/src/my_first_pkg/build/my_first_pkg/install.log --single-version-externally-managed install_data

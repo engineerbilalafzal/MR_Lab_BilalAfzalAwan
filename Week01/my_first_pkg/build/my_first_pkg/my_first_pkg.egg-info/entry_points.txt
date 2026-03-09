@@ -1,0 +1,5 @@
+[console_scripts]
+counter_node = my_first_pkg.counter_node:main
+parameter_node = my_first_pkg.parameter_node:main
+simple_node = my_first_pkg.simple_node:main
+
